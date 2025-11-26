@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3a920026e643d6bbebf143f045a807d2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3a920026e643d6bbebf143f045a807d2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3a920026e643d6bbebf143f045a807d2 = L.map(
+                "map_3a920026e643d6bbebf143f045a807d2",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3166509a1ad05f94e33586fc5ba526d1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3166509a1ad05f94e33586fc5ba526d1.addTo(map_3a920026e643d6bbebf143f045a807d2);
+        
+    
+            var marker_ab033adfb84f39e98e45bc4d768df94e = L.marker(
+                [51.4828, -0.0067],
+                {
+}
+            ).addTo(map_3a920026e643d6bbebf143f045a807d2);
+        
+    
+            var icon_eda188588008262af5ef26d7989f19ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95b4db2759b67939b96f3a7ea0b89f60 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a90ddf14b742d4994b8d8a4c34374262 = $(`<div id="html_a90ddf14b742d4994b8d8a4c34374262" style="width: 100.0%; height: 100.0%;"><b>Cruella de Vil</b><br>Director: Craig Gillespie<br>Estrella: Emma Stone<br>Año: 2021</div>`)[0];
+                popup_95b4db2759b67939b96f3a7ea0b89f60.setContent(html_a90ddf14b742d4994b8d8a4c34374262);
+            
+        
+
+        marker_ab033adfb84f39e98e45bc4d768df94e.bindPopup(popup_95b4db2759b67939b96f3a7ea0b89f60)
+        ;
+
+        
+    
+    
+                marker_ab033adfb84f39e98e45bc4d768df94e.setIcon(icon_eda188588008262af5ef26d7989f19ac);
+            
+    
+            var marker_cae5158d8addc5c07ec7a50540427c35 = L.marker(
+                [40.73, -74.0],
+                {
+}
+            ).addTo(map_3a920026e643d6bbebf143f045a807d2);
+        
+    
+            var icon_7684c65a8377614309f299c812fdd1ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b09e1d9fbaa4343087138c166b494d50 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4fc429829e9df4de5745a49b16af7aa6 = $(`<div id="html_4fc429829e9df4de5745a49b16af7aa6" style="width: 100.0%; height: 100.0%;"><b>tick tick boom</b><br>Director: Lin-Manuel Miranda<br>Estrella: Andrew Garfield<br>Año: 2021</div>`)[0];
+                popup_b09e1d9fbaa4343087138c166b494d50.setContent(html_4fc429829e9df4de5745a49b16af7aa6);
+            
+        
+
+        marker_cae5158d8addc5c07ec7a50540427c35.bindPopup(popup_b09e1d9fbaa4343087138c166b494d50)
+        ;
+
+        
+    
+    
+                marker_cae5158d8addc5c07ec7a50540427c35.setIcon(icon_7684c65a8377614309f299c812fdd1ba);
+            
+    
+            var marker_972abcbc059c0b1d115e6ea977071412 = L.marker(
+                [33.851, -116.5459],
+                {
+}
+            ).addTo(map_3a920026e643d6bbebf143f045a807d2);
+        
+    
+            var icon_9b68f2f4dcf1fc1eece578d72d6bf942 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c21b3a58c7e17172c9848598d938574 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_00e292211ce67764baa112b7f76ae210 = $(`<div id="html_00e292211ce67764baa112b7f76ae210" style="width: 100.0%; height: 100.0%;"><b>dont worry darling</b><br>Directora: Olivia Wilde<br>Estrella: Florence Pugh<br>Año: 2022</div>`)[0];
+                popup_3c21b3a58c7e17172c9848598d938574.setContent(html_00e292211ce67764baa112b7f76ae210);
+            
+        
+
+        marker_972abcbc059c0b1d115e6ea977071412.bindPopup(popup_3c21b3a58c7e17172c9848598d938574)
+        ;
+
+        
+    
+    
+                marker_972abcbc059c0b1d115e6ea977071412.setIcon(icon_9b68f2f4dcf1fc1eece578d72d6bf942);
+            
+    
+            var marker_cb6b9a5c141f48bba3f7df3cc05f267b = L.marker(
+                [-9.6687, -77.4565],
+                {
+}
+            ).addTo(map_3a920026e643d6bbebf143f045a807d2);
+        
+    
+            var icon_e92467790596553755664d6d6369e037 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_456404b348577d25f2f7760b6ad70188 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5543c4aa51ed8e1769f356b18344f05f = $(`<div id="html_5543c4aa51ed8e1769f356b18344f05f" style="width: 100.0%; height: 100.0%;"><b>Madeinusa</b><br>Directora: Claudia Llosa<br>Estrella: Magally Solier<br>Año: 2007</div>`)[0];
+                popup_456404b348577d25f2f7760b6ad70188.setContent(html_5543c4aa51ed8e1769f356b18344f05f);
+            
+        
+
+        marker_cb6b9a5c141f48bba3f7df3cc05f267b.bindPopup(popup_456404b348577d25f2f7760b6ad70188)
+        ;
+
+        
+    
+    
+                marker_cb6b9a5c141f48bba3f7df3cc05f267b.setIcon(icon_e92467790596553755664d6d6369e037);
+            
+    
+            var marker_c8553c052f0ee7e6c92701c96870d391 = L.marker(
+                [40.6861, -73.9994],
+                {
+}
+            ).addTo(map_3a920026e643d6bbebf143f045a807d2);
+        
+    
+            var icon_c452b7e1c9639224b3a9112c65f4efa3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f44bc6429d12623cee9d0fa34507e4a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ad9a2392b3b7fa6d9bc5d14fa32fd9aa = $(`<div id="html_ad9a2392b3b7fa6d9bc5d14fa32fd9aa" style="width: 100.0%; height: 100.0%;"><b>The Intern</b><br>Directora: Nancy Meyers<br>Estrella: Anne Hathaway<br>Año: 2015</div>`)[0];
+                popup_3f44bc6429d12623cee9d0fa34507e4a.setContent(html_ad9a2392b3b7fa6d9bc5d14fa32fd9aa);
+            
+        
+
+        marker_c8553c052f0ee7e6c92701c96870d391.bindPopup(popup_3f44bc6429d12623cee9d0fa34507e4a)
+        ;
+
+        
+    
+    
+                marker_c8553c052f0ee7e6c92701c96870d391.setIcon(icon_c452b7e1c9639224b3a9112c65f4efa3);
+            
+</script>
+</html>
