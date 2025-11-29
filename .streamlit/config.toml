@@ -1,0 +1,7 @@
+[theme]
+# Tema pastel personalizado
+primaryColor="#FFEFA8" # Amarillo pastel suave
+backgroundColor="#F7D1CD" # Rosado palito pastel
+secondaryBackgroundColor="#CDE9FF" # Celestito pastel
+textColor="#000000" # Negro
+font="serif" # Parecido a Times New Roman
